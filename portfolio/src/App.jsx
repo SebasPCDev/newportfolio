@@ -1,7 +1,15 @@
+import Hero from "./components/hero";
+import NavBar from "./components/navbar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Este será mi futuro portafolio
-    </h1>
+    <>
+      <div className="bg-gradient-to-b from-amber-50 to-neutral-400 font-mono h-screen">
+        <div className="max-w-[60rem] mx-auto">
+          <NavBar />
+          <Hero />
+        </div>
+      </div>
+    </>
   );
 }
