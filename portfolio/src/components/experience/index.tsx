@@ -29,7 +29,10 @@ export default function Experience() {
         {(
           t("experience.descriptions", { returnObjects: true }) as Experience[]
         ).map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center w-full justify-center"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -46,7 +49,7 @@ export default function Experience() {
               transition={{ duration: 0.5 }}
               className="w-full max-w-xl lg:w-3/4 mx-5 lg:mx-0"
             >
-              <h6 className="mb-2 font-semibold">
+              <h6 className="mb-2 font-semibold text-center">
                 {experience.position} -{" "}
                 <span className="text-sm">{experience.company}</span>
               </h6>

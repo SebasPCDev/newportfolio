@@ -23,7 +23,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className=" w-full max-w-xl lg:w-3/4r mx-auto lg:mx-0 text-center lg:text-start"
+            className=" w-full max-w-xl lg:w-3/4r mx-auto lg:mx-0 lg:text-start p-5 md:p-0"
           >
             <p>{t("about.description1")}</p>
             <br />

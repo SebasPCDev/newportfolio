@@ -52,20 +52,22 @@ export default function Projects() {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 0.5 }}
-                className="w-full max-w-xl lg:w-3/4r mx-auto lg:mx-0"
+                className="w-full max-w-xl lg:w-3/4r mx-auto lg:mx-0 p-4 md:p-0"
               >
                 <h6 className="mb-2 font-semibold mt-3 lg:mt-0">
                   {project.name}
                 </h6>
                 <p className="text-sm mb-4">{project.description}</p>
-                {project.technologies.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="text-sm bg-gray-200 text-gray-700 px-2 py-1 rounded-lg mr-2"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                <div className="flex fle-row justify-center">
+                  {project.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="text-sm bg-gray-200 text-gray-700 px-2 py-1 rounded-lg mr-2"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </motion.div>
               <hr
                 style={{

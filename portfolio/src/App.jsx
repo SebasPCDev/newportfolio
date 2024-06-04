@@ -13,7 +13,7 @@ export default function App() {
           <div className="absolute top-0 z-[-2] h-screen w-screen bg-gradient-to-b from-amber-50 to-neutral-400 "></div>
         </div>
         <NavBar />
-        <div className="max-w-[65rem] mx-auto container">
+        <div className="max-w-[65rem] mx-auto container ">
           <Hero />
           <Experience />
           <Projects />
