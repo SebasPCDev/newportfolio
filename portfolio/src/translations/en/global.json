@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "about": "About me"
+  },
+  "hero": {
+    "description": " Software developer with a professional degree in engineering. Experience in developing web applications, with knowledge of technologies that involve the front-end and back-end.",
+    "button": "Contact me"
+  },
+  "experience": {
+    "title": "Experience",
+    "descriptions": [
+      {
+        "date": "Apr 2024 - Jun 2024",
+        "company": "Henry Academy Bootcamp",
+        "position": "Full Stack Teaching Assistant",
+        "responsibilities": [
+          {
+            "description": "Present proposals and suggestions to optimize Bootcamp processes, thus contributing to its continuous improvement and operational efficiency"
+          },
+          {
+            "description": "Supervise and direct a team of students in order to facilitate their effective integration into the study environment."
+          },
+          {
+            "description": "Provide active support in solving exercises and encourage collaboration between students through practices such as pair programming"
+          }
+        ]
+      },
+      {
+        "date": "Jun 2020 - Jan 2024",
+        "company": "Diagnostic Imaging Center",
+        "position": "Biomedical Engineer",
+        "responsibilities": [
+          {
+            "description": "Supervision of the Biomedical Engineering department, leading technological management initiatives in clinical and hospital environments."
+          },
+          {
+            "description": "Implementation of preventive and corrective maintenance programs to guarantee the optimal functioning of the institution's medical equipment."
+          },
+          {
+            "description": "Specialized training for medical personnel in the management and application of cutting-edge medical technologies"
+          }
+        ]
+      },
+      {
+        "date": "Aug 2019 - Jan 2020",
+        "company": "Work.r (Startup)",
+        "position": "Machine Learning Analyst",
+        "responsibilities": [
+          {
+            "description": "Comprehensive advice and assistance in the planning and execution of projects related to the development of software and web applications, incorporating Artificial Intelligence (AI) techniques and adapting to various business models."
+          },
+          {
+            "description": "Active collaboration in the construction and refinement of mathematical models through machine learning techniques, using specialized AWS (Amazon Web Services) services for advanced image processing."
+          }
+        ]
+      },
+      {
+        "date": "Jan 2017 - Jun 2019",
+        "company": "Colombian School of Engineering Julio Garavito",
+        "position": "Teaching Assistant",
+        "responsibilities": [
+          {
+            "description": "Provision of academic guidance and personalized assistance to students in specialized subjects such as Bioinstrumentation, Introduction to Biomedical Engineering and Medical Signal Processing, through individualized or group tutoring sessions."
+          },
+          {
+            "description": "Exhaustive evaluation and critical analysis of academic and technical reports, guaranteeing the precision, coherence and quality required in their presentation."
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "descriptions": [
+      {
+        "name": "Coco+ Platform",
+        "description": "COCO+ is a project that I developed with other students as part of our graduation. The platform allows companies to offer their remote workers access to coworkings (shared work spaces) for their work performance. The application serves employees, coworking owners, business managers and platform owners, including functions such as reservation management, user activation and blocking, ticketing system, reviews and georeferencing.",
+        "link": "https://coco-plus-front.vercel.app/",
+        "image": "/cocoplatform.png",
+        "technologies": ["React", "NestJS", "NextJS", "Postgres"]
+      },
+      {
+        "name": "API E-commerce Backend Server",
+        "description": "Creation of a backend server for an e-commerce, following adequate infrastructure and programming practices, implementing technologies and concepts such as: NestJS, Authentication (Auth), Deployment (Deployment), and Docker.",
+        "link": "https://github.com/SebasPCDev/APIRepository",
+        "image": "/apiecommerce.png",
+        "technologies": ["NestJS", "Express", "JWT", "Docker", "Swagger"]
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "description1": "My beginnings with programming began in 2015, when I began my career in biomedical engineering. Since then, I have developed a strong affinity for solving problems using code and algorithms.",
+    "description2": "In January 2024, after almost four years of work experience, I decided to formalize my skills as a full stack developer. I embarked on a new path towards a stage of personal and professional growth, with the aim of putting into practice and taking my knowledge and capabilities as a potential Full Stack developer to the next level."
+  },
+  "footer": {
+    "description": "© 2024 Created by SebasPCDev 🐈‍⬛"
+  }
+}

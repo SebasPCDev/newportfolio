@@ -4,8 +4,11 @@ import { BiEnvelope, BiMapPin } from "react-icons/bi";
 import heroImg from "../../assets/profilehero.jpg";
 import { motion } from "framer-motion";
 import { PiNavigationArrow } from "react-icons/pi";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="h-auto w-full" id="hero">
       <div className="flex flex-wrap gap-10 h-full justify-center items-center mt-20 lg:justify-start mx-5 lg:mx-0">
@@ -34,7 +37,7 @@ export default function Hero() {
             Bogotá, Colombia
           </span>
 
-          <p className="mt-5 w-[40rem] mb-5 text-xl">{HERO_CONTENT}</p>
+          <p className="mt-5 w-[40rem] mb-5 text-xl">{t("hero.description")}</p>
           <button className="cursor-pointer relative group overflow-hidden border-2 px-5 py-2 border-amber-950 rounded-xl">
             <span className="font-bold text-white relative z-10 group-hover:text-black duration-500">
               <a
@@ -42,7 +45,7 @@ export default function Hero() {
                 className="flex items-center gap-2"
               >
                 <BiEnvelope className="w-5 h-5" />
-                Contáctame
+                {t("hero.button")}
               </a>
             </span>
             <span className="absolute top-0 left-0 w-full bg-amber-950 duration-500 group-hover:-translate-x-full h-full"></span>

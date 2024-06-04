@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "about": "Sobre mí"
+  },
+  "hero": {
+    "description": "Desarrollador de software con un título profesional en ingeniería. Experiencia en el desarrollo de aplicaciones web, con conocimientos en tecnologías que involucran el front-end y el back-end.",
+    "button": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "descriptions": [
+      {
+        "date": "Abr 2024 - Jun 2024",
+        "company": "Henry Academy Bootcamp",
+        "position": "Asistente de Enseñanza Full Stack",
+        "responsibilities": [
+          {
+            "description": "Presentar propuestas y sugerencias para optimizar los procesos del Bootcamp, contribuyendo así a su mejora continua y eficiencia operativa."
+          },
+          {
+            "description": "Supervisar y dirigir un equipo de estudiantes para facilitar su integración efectiva en el entorno de estudio."
+          },
+          {
+            "description": "Brindar apoyo activo en la resolución de ejercicios y fomentar la colaboración entre los estudiantes mediante prácticas como la programación en pareja."
+          }
+        ]
+      },
+      {
+        "date": "Jun 2020 - Ene 2024",
+        "company": "Centro de Diagnóstico por Imágenes",
+        "position": "Ingeniero Biomédico",
+        "responsibilities": [
+          {
+            "description": "Supervisión del departamento de Ingeniería Biomédica, liderando iniciativas de gestión tecnológica en entornos clínicos y hospitalarios."
+          },
+          {
+            "description": "Implementación de programas de mantenimiento preventivo y correctivo para garantizar el funcionamiento óptimo de los equipos médicos de la institución."
+          },
+          {
+            "description": "Capacitación especializada para el personal médico en el manejo y aplicación de tecnologías médicas de vanguardia."
+          }
+        ]
+      },
+      {
+        "date": "Ago 2019 - Ene 2020",
+        "company": "Work.r (Startup)",
+        "position": "Analista de Aprendizaje Automático",
+        "responsibilities": [
+          {
+            "description": "Asesoría integral y asistencia en la planificación y ejecución de proyectos relacionados con el desarrollo de software y aplicaciones web, incorporando técnicas de Inteligencia Artificial (IA) y adaptándose a diversos modelos de negocio."
+          },
+          {
+            "description": "Colaboración activa en la construcción y refinamiento de modelos matemáticos mediante técnicas de aprendizaje automático, utilizando servicios especializados de AWS (Amazon Web Services) para el procesamiento avanzado de imágenes."
+          }
+        ]
+      },
+      {
+        "date": "Ene 2017 - Jun 2019",
+        "company": "Escuela Colombiana de Ingeniería Julio Garavito",
+        "position": "Asistente de Enseñanza",
+        "responsibilities": [
+          {
+            "description": "Provisión de orientación académica y asistencia personalizada a estudiantes en asignaturas especializadas como Bioinstrumentación, Introducción a la Ingeniería Biomédica y Procesamiento de Señales Médicas, a través de sesiones de tutoría individualizadas o en grupo."
+          },
+          {
+            "description": "Evaluación exhaustiva y análisis crítico de informes académicos y técnicos, garantizando la precisión, coherencia y calidad requerida en su presentación."
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "descriptions": [
+      {
+        "link": "https://coco-plus-front.vercel.app/",
+        "image": "/cocoplatform.png",
+        "technologies": ["React", "NestJS", "NextJS", "Postgres"],
+        "name": "Plataforma Coco+",
+        "description": "COCO+ es un proyecto que desarrollé con otros estudiantes como parte de nuestra graduación. La plataforma permite a las empresas ofrecer a sus trabajadores remotos acceso a coworkings (espacios de trabajo compartidos) para su desempeño laboral. La aplicación sirve a empleados, propietarios de coworking, gerentes de negocios y propietarios de la plataforma, incluyendo funciones como gestión de reservas, activación y bloqueo de usuarios, sistema de tickets, reseñas y georreferenciación."
+      },
+      {
+        "link": "https://github.com/SebasPCDev/APIRepository",
+        "image": "/apiecommerce.png",
+        "technologies": ["NestJS", "Express", "JWT", "Docker", "Swagger"],
+        "name": "Servidor Backend de API para Comercio Electrónico",
+        "description": "Creación de un servidor backend para un comercio electrónico, siguiendo prácticas adecuadas de infraestructura y programación, implementando tecnologías y conceptos como: NestJS, Autenticación (Auth), Despliegue (Deployment), y Docker."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description1": "Mis inicios con la programación comenzaron en 2015, cuando comencé mi carrera en ingeniería biomédica. Desde entonces, he desarrollado una fuerte afinidad por resolver problemas usando código y algoritmos.",
+    "description2": "En enero de 2024, después de casi cuatro años de experiencia laboral, decidí formalizar mis habilidades como desarrollador full stack. Emprendí un nuevo camino hacia una etapa de crecimiento personal y profesional, con el objetivo de poner en práctica y llevar mis conocimientos y capacidades como potencial desarrollador Full Stack al siguiente nivel."
+  },
+  "footer": {
+    "description": "© 2024 Creado por SebasPCDev 🐈‍⬛"
+  }
+}
