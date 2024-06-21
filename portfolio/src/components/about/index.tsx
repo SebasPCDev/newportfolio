@@ -1,7 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../../constants";
 import { motion } from "framer-motion";
-import profileAbout from "../../assets/profileabout.jpg";
+import profileAbout from "../../assets/profilehero.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function About() {

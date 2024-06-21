@@ -1,7 +1,7 @@
 import React from "react";
 import { HERO_CONTENT } from "../../constants";
 import { BiEnvelope, BiMapPin } from "react-icons/bi";
-import heroImg from "../../assets/profilehero.jpg";
+import heroImg from "../../assets/profile.png";
 import { motion } from "framer-motion";
 import { PiNavigationArrow } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
           <span className="flex gap-4 mt-2 justify-center md:justify-start">
             <BiMapPin className="w-5 h-5 text-amber-950" />
-            Bogotá, Colombia
+            Colombia
           </span>
           <span className="flex justify-center md:justify-start">
             <p className="mt-5 md:w-[40rem] mb-5 text-xl">

@@ -13,8 +13,24 @@
     "descriptions": [
       {
         "date": "Abr 2024 - Jun 2024",
+        "company": "Coco+",
+        "position": "Desarrollador Full Stack",
+        "responsibilities": [
+          {
+            "description": "Desarrollo e implementación de interfaces de usuario atractivas y funcionales para aplicaciones web y móviles, utilizando NextJS, Tailwind, TypeScript y librerías como React."
+          },
+          {
+            "description": "Creación de API RESTful y diseño la arquitectura del lado del servidor escalables y seguras, utilizando NestJS."
+          },
+          {
+            "description": "Liderazgo de un equipo multidisciplinario para la entrega del proyecto de manera eficiente y cumplir con los objetivos de la empresa."
+          }
+        ]
+      },
+      {
+        "date": "Abr 2024 - May 2024",
         "company": "Henry Academy Bootcamp",
-        "position": "Asistente de Enseñanza Full Stack",
+        "position": "Asistente de Instructor",
         "responsibilities": [
           {
             "description": "Presentar propuestas y sugerencias para optimizar los procesos del Bootcamp, contribuyendo así a su mejora continua y eficiencia operativa."
@@ -29,7 +45,7 @@
       },
       {
         "date": "Jun 2020 - Ene 2024",
-        "company": "Centro de Diagnóstico por Imágenes",
+        "company": "Centro de Imágenes Diagnósticas",
         "position": "Ingeniero Biomédico",
         "responsibilities": [
           {
@@ -46,7 +62,7 @@
       {
         "date": "Ago 2019 - Ene 2020",
         "company": "Work.r (Startup)",
-        "position": "Analista de Aprendizaje Automático",
+        "position": "Analista de Machine Learning Jr",
         "responsibilities": [
           {
             "description": "Asesoría integral y asistencia en la planificación y ejecución de proyectos relacionados con el desarrollo de software y aplicaciones web, incorporando técnicas de Inteligencia Artificial (IA) y adaptándose a diversos modelos de negocio."
@@ -55,25 +71,19 @@
             "description": "Colaboración activa en la construcción y refinamiento de modelos matemáticos mediante técnicas de aprendizaje automático, utilizando servicios especializados de AWS (Amazon Web Services) para el procesamiento avanzado de imágenes."
           }
         ]
-      },
-      {
-        "date": "Ene 2017 - Jun 2019",
-        "company": "Escuela Colombiana de Ingeniería Julio Garavito",
-        "position": "Asistente de Enseñanza",
-        "responsibilities": [
-          {
-            "description": "Provisión de orientación académica y asistencia personalizada a estudiantes en asignaturas especializadas como Bioinstrumentación, Introducción a la Ingeniería Biomédica y Procesamiento de Señales Médicas, a través de sesiones de tutoría individualizadas o en grupo."
-          },
-          {
-            "description": "Evaluación exhaustiva y análisis crítico de informes académicos y técnicos, garantizando la precisión, coherencia y calidad requerida en su presentación."
-          }
-        ]
       }
     ]
   },
   "projects": {
     "title": "Proyectos",
     "descriptions": [
+      {
+        "link": "https://rifaya.com/",
+        "image": "/rifaya.png",
+        "technologies": ["React", "PHP", "Laravel", "MySQL"],
+        "name": "RifaYa - Plataforma de Rifas Online",
+        "description": "RifaYA es un proyecto en el que actualmente estoy trabajando. Es una plataforma de rifas online que permite a los usuarios crear y participar en rifas de productos y servicios. La aplicación incluye funciones como creación de rifas, compra de boletos, sorteos, notificaciones y pasarelas de pago. "
+      },
       {
         "link": "https://coco-plus-front.vercel.app/",
         "image": "/cocoplatform.png",

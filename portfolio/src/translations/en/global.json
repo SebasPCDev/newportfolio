@@ -13,6 +13,22 @@
     "descriptions": [
       {
         "date": "Apr 2024 - Jun 2024",
+        "company": "Coco+",
+        "position": "Full Stack Developer",
+        "responsibilities": [
+          {
+            "description": "Development and implementation of attractive and functional user interfaces for web and mobile applications, using NextJS, Tailwind, TypeScript and libraries such as React."
+          },
+          {
+            "description": "Creation of RESTful APIs and design of scalable and secure server-side architecture, using NestJS."
+          },
+          {
+            "description": "Leadership of a multidisciplinary team to deliver the project efficiently and meet company objectives."
+          }
+        ]
+      },
+      {
+        "date": "Apr 2024 - May 2024",
         "company": "Henry Academy Bootcamp",
         "position": "Full Stack Teaching Assistant",
         "responsibilities": [
@@ -74,6 +90,13 @@
   "projects": {
     "title": "Projects",
     "descriptions": [
+      {
+        "link": "https://rifaya.com/",
+        "image": "/rifaya.png",
+        "technologies": ["React", "PHP", "Laravel", "MySQL"],
+        "name": "RifaYa - Online Raffle Platform",
+        "description": "RifaYA is a project I am currently working on. It is an online raffle platform that allows users to create and participate in raffles for products and services. The app includes features like raffle creation, ticket purchase, giveaways, notifications, and payment gateways."
+      },
       {
         "name": "Coco+ Platform",
         "description": "COCO+ is a project that I developed with other students as part of our graduation. The platform allows companies to offer their remote workers access to coworkings (shared work spaces) for their work performance. The application serves employees, coworking owners, business managers and platform owners, including functions such as reservation management, user activation and blocking, ticketing system, reviews and georeferencing.",

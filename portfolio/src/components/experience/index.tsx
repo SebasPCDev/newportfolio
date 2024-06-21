@@ -3,6 +3,8 @@ import { EXPERIENCES } from "../../constants";
 import { HiCodeBracket } from "react-icons/hi2";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { FaBriefcase, FaBuilding } from "react-icons/fa";
+
 interface Experience {
   date: string;
   position: string;
@@ -49,9 +51,16 @@ export default function Experience() {
               transition={{ duration: 0.5 }}
               className="w-full max-w-xl lg:w-3/4 mx-5 lg:mx-0"
             >
-              <h6 className="mb-2 font-semibold text-center">
-                {experience.position} -{" "}
-                <span className="text-sm">{experience.company}</span>
+              <h6 className="mb-2 font-semibold text-start">
+                <span className="text-sm flex flex-row gap-2 items-center">
+                  {" "}
+                  <FaBuilding />
+                  {experience.company}
+                </span>
+                <span className="text-sm flex flex-row items-center gap-2">
+                  <FaBriefcase />
+                  {experience.position}
+                </span>
               </h6>
               {experience.responsibilities.map((desc, index) => (
                 <p key={index} className="text-sm mb-2 flex gap-2 px-5">
