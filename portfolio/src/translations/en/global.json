@@ -12,6 +12,19 @@
     "title": "Experience",
     "descriptions": [
       {
+        "date": "Oct 2024 - Present",
+        "company": "Coldevs S.A.S",
+        "position": "Full Stack Developer (Junior)",
+        "responsibilities": [
+          {
+            "description": "Analysis and refactoring of a legacy system developed in an outdated version of PHP, supporting its migration to a modern environment using the Laravel and Livewire framework. This process includes code optimization, improvement of the architecture, implementation of best development practices, and ensuring compatibility with current business requirements."
+          },
+          {
+            "description": "Design and implementation of new features in the migrated application, ensuring a smooth user experience by integrating Livewire for frontend interactivity. Additionally, extensive testing and code documentation, ensuring long-term quality and maintainability of the system."
+          }
+        ]
+      },
+      {
         "date": "Apr 2024 - Jun 2024",
         "company": "Coco+",
         "position": "Full Stack Developer",
